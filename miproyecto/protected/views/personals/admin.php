@@ -1,15 +1,15 @@
 <?php
-/* @var $this UsersController */
-/* @var $model Users */
+/* @var $this PersonalsController */
+/* @var $model Personals */
 
 $this->breadcrumbs=array(
-	'Users'=>array('index'),
+	'Personals'=>array('index'),
 	'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'List Users', 'url'=>array('index')),
-	array('label'=>'Create Users', 'url'=>array('create')),
+	array('label'=>'Volver a Lista', 'url'=>array('index')),
+	array('label'=>'Crear', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -18,7 +18,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$('#users-grid').yiiGridView('update', {
+	$('#personals-grid').yiiGridView('update', {
 		data: $(this).serialize()
 	});
 	return false;
@@ -26,14 +26,11 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Users</h1>
+<h1>Administrar Personal</h1>
 
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+
+<?php echo CHtml::link('Buscar','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -41,14 +38,29 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 </div><!-- search-form -->
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'users-grid',
+	'id'=>'personals-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id',
-		'username',
-		'password',
-		'email',
+		/*'id',*/
+		'rut',
+		'nombre',
+		'apellido',
+		/*
+		'ffiniquito',
+		'ecivil',
+		'fnacimiento',
+		'ciudad',
+		'region',
+		'cargo',
+		'sbase',
+		'sliquido',
+		'telefono',
+		'mail',
+		'resena',
+		'calificacion',
+		'observacion',
+		*/
 		array(
 			'class'=>'CButtonColumn',
 		),

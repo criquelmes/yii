@@ -1,18 +1,18 @@
 <?php
-/* @var $this UsersController */
+/* @var $this PersonalsController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Users',
+	'Personal',
 );
 
 $this->menu=array(
-	array('label'=>'Create Users', 'url'=>array('create')),
-	array('label'=>'Manage Users', 'url'=>array('admin')),
+	array('label'=>'Crear', 'url'=>array('create')),
+	array('label'=>'Administrar Personal', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Users</h1>
+<h1>Personal contrato SC-064</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
