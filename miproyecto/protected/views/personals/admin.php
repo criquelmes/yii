@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Volver a Lista', 'url'=>array('index')),
+	array('label'=>'Volver', 'url'=>array('index')),
 	array('label'=>'Crear', 'url'=>array('create')),
 );
 
@@ -42,7 +42,7 @@ $('.search-form form').submit(function(){
 	'itemsCssClass'=>"table table-striped",
 	'pager'=>array("htmlOptions"=>array("class"=>"pagination")),
 	'dataProvider'=>$model->search(),
-	'filter'=>$model,
+	#'filter'=>$model,
 	'columns'=>array(
 		/*'id',*/
 		'rut',

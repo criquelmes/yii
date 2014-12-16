@@ -12,10 +12,10 @@ $this->menu=array(
 );
 ?>
 
-<h1>Personal contrato SC-064</h1>
-
-<?php $this->widget('zii.widgets.CListView', array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
-	'pager'=>array("htmlOptions"=>array("class"=>"pagination"))
-)); ?>
+<div class="jumbotron">
+  <h1>Relaciones Laborales</h1>
+  <hr>
+  <br>
+  <p>Base de datos con registro de trabajadores correspondientes al contrato SC-064.</p>
+  <br>
+</div>

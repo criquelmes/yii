@@ -33,7 +33,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="#">Sigma</a>
+      <a class="brand" href="#">
+        <img alt="brand" src="<?php echo Yii::app()->theme->baseUrl;?>/img/brand_img.png">Sigma
+      </a>
 
       <div class="nav-collapse collapse pull-right">
         <?php $this->widget('zii.widgets.CMenu',array(
@@ -83,16 +85,16 @@
 
 <?php echo $content;?>
 
- <section class="footer-credits">
-    <div class="container">
-        <ul class="clearfix">
-            <li>© 2014 Sigma SA.</li>
-            <li>Diagonal Oriente #5170 Ñuñoa, Santiago</li>
-            <li>Teléfono: <a href="tel:+5629636400" class="tele">+56 2 9636400</a></li>
-            <li>Email: <a href="mailto:email@sigmasa.cl"> email@sigmasa.cl</a></li>
-        </ul>
-    </div>
-    <!--close footer-credits container-->
+<section class="footer-credits" id="footfix">
+  <div class="container">
+    <ul class="clearfix">
+      <li>© 2014 Sigma SA.</li>
+      <li>Diagonal Oriente #5170 Ñuñoa, Santiago</li>
+      <li>Teléfono: <a href="tel:+5629636400" class="tele">+56 2 9636400</a></li>
+      <li>Email: <a href="mailto:email@sigmasa.cl"> email@sigmasa.cl</a></li>
+    </ul>
+  </div>
+  <!--close footer-credits container-->
 </section>
 
   <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery.js"></script>
