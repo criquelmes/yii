@@ -19,104 +19,104 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'rut'); ?>
 		<?php echo $form->textField($model,'rut',array('size'=>12,'maxlength'=>12)); ?>
 		<?php echo $form->error($model,'rut'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'nombre'); ?>
 		<?php echo $form->textField($model,'nombre',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'nombre'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'apellido'); ?>
 		<?php echo $form->textField($model,'apellido',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'apellido'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'ffiniquito'); ?>
 		<?php echo $form->textField($model,'ffiniquito'); ?>
 		<?php echo $form->error($model,'ffiniquito'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'ecivil'); ?>
 		<?php echo $form->textField($model,'ecivil',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'ecivil'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'fnacimiento'); ?>
 		<?php echo $form->textField($model,'fnacimiento'); ?>
 		<?php echo $form->error($model,'fnacimiento'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'ciudad'); ?>
 		<?php echo $form->textField($model,'ciudad',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'ciudad'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'region'); ?>
 		<?php echo $form->textField($model,'region',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'region'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'cargo'); ?>
 		<?php echo $form->textField($model,'cargo',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'cargo'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'sbase'); ?>
 		<?php echo $form->textField($model,'sbase'); ?>
 		<?php echo $form->error($model,'sbase'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'sliquido'); ?>
 		<?php echo $form->textField($model,'sliquido'); ?>
 		<?php echo $form->error($model,'sliquido'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'telefono'); ?>
 		<?php echo $form->textField($model,'telefono',array('size'=>10,'maxlength'=>10)); ?>
 		<?php echo $form->error($model,'telefono'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'mail'); ?>
 		<?php echo $form->textField($model,'mail',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'mail'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'resena'); ?>
 		<?php echo $form->textField($model,'resena',array('size'=>60,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'resena'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'calificacion'); ?>
 		<?php echo $form->textField($model,'calificacion'); ?>
 		<?php echo $form->error($model,'calificacion'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'observacion'); ?>
 		<?php echo $form->textField($model,'observacion',array('size'=>60,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'observacion'); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+	<div class="buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Guardar', array("class"=>"btn btn-primary")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

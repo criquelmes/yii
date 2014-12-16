@@ -39,6 +39,8 @@ $('.search-form form').submit(function(){
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'personals-grid',
+	'itemsCssClass'=>"table table-striped",
+	'pager'=>array("htmlOptions"=>array("class"=>"pagination")),
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(

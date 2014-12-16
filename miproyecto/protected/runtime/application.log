@@ -458,3 +458,312 @@ Stack trace:
 REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
 HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
 ---
+2014/12/15 15:00:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/fotosp/Abarca Aspitarte.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/fotosp/Abar...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/img/fotosp/Abarca%20Aspitarte.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/1.html
+---
+2014/12/15 15:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/fotosp/Abarca Aspitarte.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/fotosp/Abar...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/img/fotosp/Abarca%20Aspitarte.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/1.html
+---
+2014/12/15 15:02:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/fotosp/Abarca Aspitarte.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/fotosp/Abar...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/img/fotosp/Abarca%20Aspitarte.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/1.html
+---
+2014/12/15 15:02:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/fotosp/Abarca Aspitarte.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/fotosp/Abar...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/img/fotosp/Abarca%20Aspitarte.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/1.html
+---
+2014/12/15 15:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/fotosp/Abarca Aspitarte.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/fotosp/Abar...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/img/fotosp/Abarca%20Aspitarte.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/1.html
+---
+2014/12/15 15:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/fotosp/Abarca Aspitarte.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/fotosp/Abar...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/img/fotosp/Abarca%20Aspitarte.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/1.html
+---
+2014/12/15 19:37:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/image001.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/images/image001.png
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/index.html
+---
+2014/12/15 20:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/index.html
+---
+2014/12/15 20:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/image001.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/image001.png
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/index.html
+---
+2014/12/15 20:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/image001.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/image001.png
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/index.html
+---
+2014/12/15 20:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:20:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/image001.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/image001.png
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/index.html
+---
+2014/12/15 20:20:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:20:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/image001.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/image001.png
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/index.html
+---
+2014/12/15 20:20:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/image001.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/image001.png
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/index.html
+---
+2014/12/15 20:20:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:21:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/image001.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/image001.png
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/index.html
+---
+2014/12/15 20:21:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/image001.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/image001.png
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/index.html
+---
+2014/12/15 20:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:22:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/img/bgmain.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/themes/classic/img/bgmain.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/themes/classic/css/bootstrap.min.css
+---
+2014/12/15 20:52:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Abarca Aspitarte.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/Abarca A...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/Abarca%20Aspitarte.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/1.html
+---
+2014/12/15 20:55:28 [error] [php] Undefined variable: model (C:\wamp\www\yii\miproyecto\protected\views\personals\admin.php:36)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): PersonalsController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): PersonalsController->renderPartial()
+#2 C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php(128): PersonalsController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): PersonalsController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): PersonalsController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): PersonalsController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): PersonalsController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): PersonalsController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\yii\miproyecto\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/miproyecto/personals
+in C:\wamp\www\yii\miproyecto\protected\views\personals\admin.php (36)
+in C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php (128)
+in C:\wamp\www\yii\miproyecto\index.php (13)
+2014/12/15 20:56:13 [error] [php] Undefined variable: model (C:\wamp\www\yii\miproyecto\protected\views\personals\index.php:36)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): PersonalsController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): PersonalsController->renderPartial()
+#2 C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php(128): PersonalsController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): PersonalsController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): PersonalsController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): PersonalsController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): PersonalsController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): PersonalsController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\yii\miproyecto\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/miproyecto/personals
+in C:\wamp\www\yii\miproyecto\protected\views\personals\index.php (36)
+in C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php (128)
+in C:\wamp\www\yii\miproyecto\index.php (13)
+2014/12/15 20:56:26 [error] [php] Undefined variable: model (C:\wamp\www\yii\miproyecto\protected\views\personals\index.php:36)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): PersonalsController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): PersonalsController->renderPartial()
+#2 C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php(128): PersonalsController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): PersonalsController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): PersonalsController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): PersonalsController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): PersonalsController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): PersonalsController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\yii\miproyecto\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/miproyecto/personals/index.html
+in C:\wamp\www\yii\miproyecto\protected\views\personals\index.php (36)
+in C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php (128)
+in C:\wamp\www\yii\miproyecto\index.php (13)

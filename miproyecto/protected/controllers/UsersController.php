@@ -1,6 +1,6 @@
 <?php
 
-class PersonalsController extends Controller
+class UsersController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -62,16 +62,15 @@ class PersonalsController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Personals;
+		$model=new Users;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Personals']))
+		if(isset($_POST['Users']))
 		{
-			$model->attributes=$_POST['Personals'];
+			$model->attributes=$_POST['Users'];
 			if($model->save())
-				Yii::app()->user->setFlash("success", "Datos Almacenados correctamente.");
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
@@ -92,11 +91,10 @@ class PersonalsController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Personals']))
+		if(isset($_POST['Users']))
 		{
-			$model->attributes=$_POST['Personals'];
+			$model->attributes=$_POST['Users'];
 			if($model->save())
-				Yii::app()->user->setFlash("success", "Datos Actualizados correctamente.");
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
@@ -124,7 +122,7 @@ class PersonalsController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Personals');
+		$dataProvider=new CActiveDataProvider('Users');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -135,10 +133,10 @@ class PersonalsController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Personals('search');
+		$model=new Users('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Personals']))
-			$model->attributes=$_GET['Personals'];
+		if(isset($_GET['Users']))
+			$model->attributes=$_GET['Users'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -149,12 +147,12 @@ class PersonalsController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Personals the loaded model
+	 * @return Users the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Personals::model()->findByPk($id);
+		$model=Users::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -162,11 +160,11 @@ class PersonalsController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Personals $model the model to be validated
+	 * @param Users $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='personals-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='users-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

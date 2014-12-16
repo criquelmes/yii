@@ -9,10 +9,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Personals', 'url'=>array('index')),
-	array('label'=>'Create Personals', 'url'=>array('create')),
-	array('label'=>'View Personals', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Personals', 'url'=>array('admin')),
+	array('label'=>'Listar Personal', 'url'=>array('index')),
+	array('label'=>'Crear Personal', 'url'=>array('create')),
+	array('label'=>'Ver detalle Personal', 'url'=>array('view', 'id'=>$model->id)),
+	array('label'=>'Administrar Personal', 'url'=>array('admin')),
 );
 ?>
 

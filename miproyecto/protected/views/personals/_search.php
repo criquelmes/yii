@@ -11,13 +11,13 @@
 	'method'=>'get',
 )); ?>
 
-	<div class="row">
+	<div>
 		<?php echo $form->label($model,'rut'); ?>
 		<?php echo $form->textField($model,'rut',array('size'=>12,'maxlength'=>12)); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Buscar'); ?>
+	<div class="buttons">
+		<?php echo CHtml::submitButton('Buscar', array("class"=>"btn btn-primary")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Personals', 'url'=>array('index')),
-	array('label'=>'Manage Personals', 'url'=>array('admin')),
+	array('label'=>'Listar Personal', 'url'=>array('index')),
+	array('label'=>'Administrar Personal', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Personals</h1>
+<h1>Crear nuevo Personal</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
