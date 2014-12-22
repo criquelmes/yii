@@ -59,6 +59,7 @@ $('.search-form form').submit(function(){
 		'sliquido',
 		'telefono',
 		'mail',
+		'academico',
 		'resena',
 		'calificacion',
 		'observacion',

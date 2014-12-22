@@ -19,6 +19,7 @@
  * @property string $telefono
  * @property string $mail
  * @property string $resena
+ * @property string $academico
  * @property integer $calificacion
  * @property string $observacion
  */
@@ -43,13 +44,13 @@ class Personals extends CActiveRecord
 			array('rut, nombre, apellido', 'required'),
 			array('sbase, sliquido, calificacion', 'numerical', 'integerOnly'=>true),
 			array('rut', 'length', 'max'=>12),
-			array('nombre, apellido, ecivil, ciudad, region, cargo, mail', 'length', 'max'=>128),
+			array('nombre, apellido, ecivil, ciudad, region, cargo, mail, academico', 'length', 'max'=>128),
 			array('telefono', 'length', 'max'=>10),
 			array('resena, observacion', 'length', 'max'=>256),
 			array('ffiniquito, fnacimiento', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, rut, nombre, apellido, ffiniquito, ecivil, fnacimiento, ciudad, region, cargo, sbase, sliquido, telefono, mail, resena, calificacion, observacion', 'safe', 'on'=>'search'),
+			array('id, rut, nombre, apellido, ffiniquito, ecivil, fnacimiento, ciudad, region, cargo, sbase, sliquido, telefono, mail, academico, resena, calificacion, observacion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -84,6 +85,7 @@ class Personals extends CActiveRecord
 			'sliquido' => 'Sueldo Líquido',
 			'telefono' => 'Teléfono',
 			'mail' => 'Email',
+			'academico' => 'Grado Academico',
 			'resena' => 'Reseña',
 			'calificacion' => 'Calificación',
 			'observacion' => 'Observación',
@@ -122,6 +124,7 @@ class Personals extends CActiveRecord
 		$criteria->compare('sliquido',$this->sliquido);
 		$criteria->compare('telefono',$this->telefono,true);
 		$criteria->compare('mail',$this->mail,true);
+		$criteria->compare('academico',$this->academico,true);
 		$criteria->compare('resena',$this->resena,true);
 		$criteria->compare('calificacion',$this->calificacion);
 		$criteria->compare('observacion',$this->observacion,true);

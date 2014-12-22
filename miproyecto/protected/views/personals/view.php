@@ -41,6 +41,7 @@ $this->menu=array(
 		'sliquido',
 		'telefono',
 		'mail',
+		'academico',
 		'resena',
 		'calificacion',
 		'observacion',

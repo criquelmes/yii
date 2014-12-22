@@ -98,6 +98,12 @@
 	</div>
 
 	<div>
+		<?php echo $form->labelEx($model,'academico'); ?>
+		<?php echo $form->textField($model,'academico',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->error($model,'academico'); ?>
+	</div>
+
+	<div>
 		<?php echo $form->labelEx($model,'resena'); ?>
 		<?php echo $form->textField($model,'resena',array('size'=>60,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'resena'); ?>
