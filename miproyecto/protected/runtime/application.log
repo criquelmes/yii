@@ -1164,3 +1164,12 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/yii/miproyecto/sper
 ---
+2014/12/22 19:45:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/12335162-2.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/12335162...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/12335162-2.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/185.html
+---
