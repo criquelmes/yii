@@ -877,3 +877,290 @@ Stack trace:
 REQUEST_URI=/yii/miproyecto/users/admin.html
 HTTP_REFERER=http://localhost:8080/yii/miproyecto/users
 ---
+2014/12/17 14:33:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/14057972-6.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/14057972...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/14057972-6.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/4.html
+---
+2014/12/17 14:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/10362436-3.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/10362436...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/10362436-3.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/5.html
+---
+2014/12/17 14:35:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/16530622-8.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/16530622...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/16530622-8.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/7.html
+---
+2014/12/17 14:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/16780361-K.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/16780361...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/16780361-K.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/8.html
+---
+2014/12/17 14:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/8093928-0.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/8093928-...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/8093928-0.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/9.html
+---
+2014/12/17 14:36:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/7706971-2.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/7706971-...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/7706971-2.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/10.html
+---
+2014/12/17 14:37:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/13953054-3.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/13953054...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/13953054-3.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/11.html
+---
+2014/12/17 14:39:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/13953054-3.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/13953054...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/13953054-3.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/11.html
+---
+2014/12/17 14:39:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/12601073-7.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/12601073...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/12601073-7.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/12.html
+---
+2014/12/17 14:40:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/12976140-7.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/12976140...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/12976140-7.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/13.html
+---
+2014/12/17 14:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/4989777-4.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/4989777-...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/4989777-4.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/14.html
+---
+2014/12/17 14:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/17920759-1.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/17920759...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/17920759-1.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/15.html
+---
+2014/12/17 14:41:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/16867294-2.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/16867294...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/16867294-2.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/16.html
+---
+2014/12/17 14:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/14551641-2.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/14551641...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/14551641-2.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/18.html
+---
+2014/12/17 14:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/13976240-1.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/13976240...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/13976240-1.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/19.html
+---
+2014/12/17 14:43:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/13328310-2.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/13328310...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/13328310-2.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/20.html
+---
+2014/12/17 14:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/16867294-2.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/16867294...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/16867294-2.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/16.html
+---
+2014/12/17 15:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/14468461-3.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/14468461...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/14468461-3.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/22.html
+---
+2014/12/17 20:23:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/16103149-6.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/16103149...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/16103149-6.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/40.html
+---
+2014/12/17 20:25:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/14057972-6.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/14057972...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/14057972-6.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/4.html
+---
+2014/12/17 20:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/10362436-3.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/10362436...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/10362436-3.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/5.html
+---
+2014/12/17 20:27:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/13588042-6.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/13588042...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/13588042-6.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/6.html
+---
+2014/12/17 20:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/12976140-7.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/12976140...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/12976140-7.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/13.html
+---
+2014/12/17 20:53:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('personals/delet...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/miproyecto/personals/delete/52.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/admin.html?Personals%5Brut%5D=15.145.642-1&yt0=Buscar
+---
+2014/12/17 20:53:22 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('personals/delet...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/miproyecto/personals/delete/24.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/admin.html?Personals%5Brut%5D=15.145.642-1&yt0=Buscar
+---
+2014/12/17 20:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/17344844-9.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/17344844...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/17344844-9.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/73.html
+---
+2014/12/17 20:58:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/15031166-7.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/15031166...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/15031166-7.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/129.html
+---
+2014/12/17 20:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/15049554-7.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/15049554...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/15049554-7.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/128.html
+---
+2014/12/17 20:59:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/17095575-7.jpg".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/17095575...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/images/17095575-7.jpg
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/127.html
+---
+2014/12/18 14:27:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sper".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sper')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/miproyecto/sper
+---

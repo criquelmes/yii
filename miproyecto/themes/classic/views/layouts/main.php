@@ -85,7 +85,7 @@
 
 <?php echo $content;?>
 
-<section class="footer-credits" id="footfix">
+<footer class="footer-credits">
   <div class="container">
     <ul class="clearfix">
       <li>© 2014 Sigma SA.</li>
@@ -95,7 +95,7 @@
     </ul>
   </div>
   <!--close footer-credits container-->
-</section>
+</footer>
 
   <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery.js"></script>
   <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/bootstrap.min.js"></script>

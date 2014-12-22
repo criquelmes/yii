@@ -20,13 +20,13 @@ $this->menu=array(
 
 <div class="row pull-right" >
 	<div class="col-xs-6 col-md-3">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/Abarca Aspitarte.jpg" alt="..." class="thumbnail">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/<?php echo str_replace('.', '', $model->rut);?>.jpg" alt="..." class="thumbnail img-retrato">
 	</div>
 </div>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
-	'htmlOptions'=>array("class"=>"table table-striped"),
+	'htmlOptions'=>array("class"=>"table table-striped", "id"=>"tbl_details"),
 	'attributes'=>array(
 		'rut',
 		'nombre',
