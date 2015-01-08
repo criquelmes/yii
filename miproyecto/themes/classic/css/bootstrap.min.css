@@ -1427,7 +1427,7 @@ a.six{color:#f8f8f8;}a.six:hover{color:#d2d2d2;}
 .pd1{padding-top:15px;padding-bottom:15px;overflow:hidden;}
 .pd2{padding-top:30px;padding-bottom:30px;overflow:hidden;}
 .pd3{padding-top:45px;padding-bottom:45px;overflow:hidden;}
-.pd4{padding-top:60px;padding-bottom:60px;overflow:hidden;}
+.pd4{padding-top:60px;padding-bottom:460px;overflow:hidden;}
 .pd5{padding-top:75px;padding-bottom:75px;overflow:hidden;}
 .pd6{padding-top:80px;padding-bottom:80px;overflow:hidden;}
 .mg1{margin-top:15px;margin-bottom:15px;overflow:hidden;}
@@ -1534,4 +1534,8 @@ span.required{color:#b94a48;}
 .img-retrato{
 	width: 126px;
 	height: 180px;
+}
+
+.fix-login{
+	padding-bottom: 460px;
 }

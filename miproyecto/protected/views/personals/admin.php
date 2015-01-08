@@ -69,3 +69,4 @@ $('.search-form form').submit(function(){
 		),
 	),
 )); ?>
+<div style="padding-bottom: 128px;"></div>

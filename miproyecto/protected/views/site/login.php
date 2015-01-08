@@ -13,7 +13,7 @@ $this->breadcrumbs=array(
 
 <p>Por favor complete el siguiente formulario con sus datos de acceso:</p>
 
-<div class="form">
+<div class="form fix-login">
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'login-form',
 	'enableClientValidation'=>true,
