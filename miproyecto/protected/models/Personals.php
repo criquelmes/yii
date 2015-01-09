@@ -25,6 +25,17 @@
  */
 class Personals extends CActiveRecord
 {
+
+	public function behaviors()
+    {
+        return array(
+            'GPuntos' => array(
+	            'class' => 'ext.puntos.GPuntos',
+	            'campos' => 'sbase, sliquido',
+	            'separador' => '.',
+            	),
+        );
+    }
 	/**
 	 * @return string the associated database table name
 	 */
