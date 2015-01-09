@@ -71,7 +71,7 @@ class PersonalsController extends Controller
 		{
 			$model->attributes=$_POST['Personals'];
 			if($model->save())
-				Yii::app()->user->setFlash("success", "Datos Almacenados correctamente.");
+				Yii::app()->user->setFlash("success", "Datos Almacenados Correctamente.");
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
@@ -96,7 +96,7 @@ class PersonalsController extends Controller
 		{
 			$model->attributes=$_POST['Personals'];
 			if($model->save())
-				Yii::app()->user->setFlash("success", "Datos Actualizados correctamente.");
+				Yii::app()->user->setFlash("success", "Datos Actualizados Correctamente.");
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
@@ -156,7 +156,7 @@ class PersonalsController extends Controller
 	{
 		$model=Personals::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
+			throw new CHttpException(404,'La Página solicitada no Existe.');
 		return $model;
 	}
 

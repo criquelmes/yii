@@ -3,13 +3,13 @@
 /* @var $model Personals */
 
 $this->breadcrumbs=array(
-	'Personals'=>array('index'),
-	'Manage',
+	'Personal'=>array('index'),
+	'Administación',
 );
 
 $this->menu=array(
 	array('label'=>'Volver', 'url'=>array('index')),
-	array('label'=>'Crear', 'url'=>array('create')),
+	#array('label'=>'Crear', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "

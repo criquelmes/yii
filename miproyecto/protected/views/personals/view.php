@@ -8,11 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Listar Personal', 'url'=>array('index')),
-	array('label'=>'Crear Personal', 'url'=>array('create')),
-	array('label'=>'Actualizar Personal', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Eliminar Personal', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Administrar Personal', 'url'=>array('admin')),
+	array('label'=>'Actualizar Datos', 'url'=>array('update', 'id'=>$model->id)),
+	array('label'=>'Volver', 'url'=>array('admin')),
 );
 ?>
 

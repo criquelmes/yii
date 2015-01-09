@@ -99,5 +99,6 @@
 
   <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery.js"></script>
   <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/bootstrap.min.js"></script>
+  <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery.price_format.2.0.js"></script>
   </body>
 </html>

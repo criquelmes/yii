@@ -1238,3 +1238,108 @@ Stack trace:
 REQUEST_URI=/yii/miproyecto/images/14059999-9.jpg
 HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/85.html
 ---
+2015/01/08 20:07:17 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.homeUrl" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('homeUrl')
+#1 C:\wamp\www\yii\miproyecto\protected\controllers\SiteController.php(96): CWebUser->__get('homeUrl')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/miproyecto/site/login.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/login.html
+---
+2015/01/08 20:07:57 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.personal" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(105): CComponent->__get('personal')
+#1 C:\wamp\www\yii\miproyecto\protected\controllers\SiteController.php(96): CModule->__get('personal')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/miproyecto/site/login.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/login.html
+---
+2015/01/08 20:08:02 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.personal" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(105): CComponent->__get('personal')
+#1 C:\wamp\www\yii\miproyecto\protected\controllers\SiteController.php(96): CModule->__get('personal')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/miproyecto/site/login.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/login.html
+---
+2015/01/08 20:10:24 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.personals" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(105): CComponent->__get('personals')
+#1 C:\wamp\www\yii\miproyecto\protected\controllers\SiteController.php(96): CModule->__get('personals')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/miproyecto/site/login.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/login.html
+---
+2015/01/08 20:10:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.personal" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(105): CComponent->__get('personal')
+#1 C:\wamp\www\yii\miproyecto\protected\controllers\SiteController.php(96): CModule->__get('personal')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/miproyecto/site/login.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/site/login.html
+---
+2015/01/08 21:23:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sigma.personal' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `personal`.
+in C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php (138)
+in C:\wamp\www\yii\miproyecto\index.php (13)
+2015/01/08 21:23:16 [error] [exception.CDbException] exception 'CDbException' with message 'The table "personal" for active record class "Personals" cannot be found in the database.' in C:\wamp\www\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Personals))
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php(138): CActiveRecord->__construct('search')
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): PersonalsController->actionAdmin()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('personals/admin')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/miproyecto/personals/admin.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/update/1.html
+---
