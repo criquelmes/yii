@@ -33,7 +33,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="#">
+      <a class="brand" href="<?php echo Yii::app()->homeUrl;?>">
         <img alt="brand" src="<?php echo Yii::app()->theme->baseUrl;?>/img/brand_img.png">Sigma
       </a>
 
@@ -41,7 +41,7 @@
         <?php $this->widget('zii.widgets.CMenu',array(
           'htmlOptions'=>array("class"=>"nav"),
           'items'=>array(
-            array('label'=>'Home', 'url'=>array('/site/index')),
+            #array('label'=>'Inicio', 'url'=>array('/site/index')),
             #array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
             #array('label'=>'Contact', 'url'=>array('/site/contact')),
             array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
