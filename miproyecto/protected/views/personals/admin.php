@@ -29,8 +29,11 @@ $('.search-form form').submit(function(){
 <h1>Administrar Personal</h1>
 
 
+<div class="span12">
+	<div class="span10"><?php echo CHtml::link('Buscar','#',array('class'=>'search-button')); ?></div>
+	<div class="pull-right span2"><?php echo CHtml::link("Exportar a Excel",array("admin","excel"=>1),array("class"=>"label label-success"));?></div>
+</div>
 
-<?php echo CHtml::link('Buscar','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,

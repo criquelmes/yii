@@ -135,6 +135,13 @@ class PersonalsController extends Controller
 	 */
 	public function actionAdmin()
 	{
+		if(isset($_GET["excel"])){
+
+			$model=Personals::model()->findAll();
+			$content = $this->renderPartial("excel", array("model"=>$model),true);
+			Yii::app()->request->sendFile("reportExcel.xls",$content);
+		}
+		
 		$model=new Personals('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Personals']))
