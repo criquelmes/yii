@@ -27,3 +27,22 @@ $this->menu=array(
 		'email',
 	),
 )); ?>
+
+<ul class="nav nav-tabs nav-stacked">
+<?php foreach(Yii::app()->authManager->getAuthItems() as $data):?>
+<?php $enabled=Yii::app()->authManager->checkAccess($data->name,$model->id)?>
+	<li>
+		<h4><?php echo $data->name?> 
+			<small>
+				<?php if($data->type==0) echo "Role";?>
+				<?php if($data->type==1) echo "Tarea";?>
+				<?php if($data->type==2) echo "Operaciones";?> 
+			</small>
+			<?php echo CHtml::link($enabled?"Off":"On", array("users/assign","id"=>$model->id,"item"=>$data->name),
+				array("class"=>$enabled?"btn":"btn btn-primary"));?>
+		</h4>
+		<p><?php echo $data->description?></p>
+		<hr>
+	</li>
+<?php endforeach;?>
+</ul>
