@@ -27,10 +27,22 @@ class UserIdentity extends CUserIdentity
 		else
 		{
 			$this->_id=$user->id;
-			$this->setState("email",$user->email);
+			#$this->setState("email",$user->email);
 			$this->errorCode=self::ERROR_NONE;
 		}
 		return !$this->errorCode;
+
+		/*$users=array(
+			'demo'=>'demo',
+			'admin'=>'admin',
+		);
+		if(!isset($users[$this->username]))
+			$this->errorCode=self::ERROR_USERNAME_INVALID;
+		elseif($users[$this->username]!==$this->password)
+			$this->errorCode=self::ERROR_PASSWORD_INVALID;
+		else
+			$this->errorCode=self::ERROR_NONE;
+		return !$this->errorCode;*/
 	}
 	public function getId()
 	{

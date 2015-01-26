@@ -29,16 +29,16 @@ class UsersController extends Controller
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view','assign'),
-				'users'=>array('*'),
+				'users'=>array('@'),
 				#'roles'=>array("admin"),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'roles'=>array('@'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete','assign'),
-				'roles'=>array('@'),
+				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -52,8 +52,23 @@ class UsersController extends Controller
 	 */
 	public function actionView($id)
 	{
+		$role=new RoleForm;
+
+		if(isset($_POST["RoleForm"]))
+		{
+			$role->attributes=$_POST["RoleForm"];
+			if($role->validate())
+			{	
+				Yii::app()->authManager->createRole($role->name, $role->description);
+				Yii::app()->authManager->assign($role->name,$id);
+
+				$this->redirect(array("view","id"=>$id));
+			}
+		}
+
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
+			'role'=>$role,
 		));
 	}
 
