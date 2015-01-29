@@ -3,23 +3,24 @@
 /* @var $model Users */
 
 $this->breadcrumbs=array(
-	'Users'=>array('index'),
+	'Usuarios'=>array('index'),
 	$model->id,
 );
 
 $this->menu=array(
-	array('label'=>'List Users', 'url'=>array('index')),
-	array('label'=>'Create Users', 'url'=>array('create')),
-	array('label'=>'Update Users', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete Users', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Users', 'url'=>array('admin')),
+	array('label'=>'Ver Listado de Usuarios', 'url'=>array('index')),
+	array('label'=>'Crear nuevo', 'url'=>array('create')),
+	array('label'=>'Actualizar', 'url'=>array('update', 'id'=>$model->id)),
+	array('label'=>'Eliminar', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Volver', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Users #<?php echo $model->id; ?></h1>
-
+<h1>Detalle de Usuario ID: <?php echo $model->id; ?></h1>
+<br>
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
+	'htmlOptions'=>array("class"=>"table table-striped"),
 	'attributes'=>array(
 		'id',
 		'username',
@@ -28,22 +29,24 @@ $this->menu=array(
 	),
 )); ?>
 
-<div class="row-fluid">
-	<div class="span6">
-		<h2>Crear Rol</h2>
-		<?php $form=$this->beginWidget("CActiveForm");?>
+<div class="row-fluid" style="padding-bottom: 261px;">
+<!-- 	<div class="span6">
+		<h3>Crear Rol</h3>
+		<?php #$form=$this->beginWidget("CActiveForm");?>
 
-		<?php echo $form->labelEx($role,"name");?>
-		<?php echo $form->textField($role,"name");?>
-		<?php echo $form->error($role,"name");?>
+		<?php #echo $form->labelEx($role,"name");?>
+		<?php #echo $form->textField($role,"name");?>
+		<?php #echo $form->error($role,"name");?>
 
-		<?php echo $form->labelEx($role,"description");?>
-		<?php echo $form->textField($role,"description");?>
-		<?php echo $form->error($role,"description");?><br>
-		<?php echo  CHtml::submitButton("Create",array("class"=>"btn btn-primary"));?>
-		<?php $this->endWidget();?>
-	</div>
+		<?php #echo $form->labelEx($role,"description");?>
+		<?php #echo $form->textField($role,"description");?>
+		<?php #echo $form->error($role,"description");?><br>
+		<?php #echo  CHtml::submitButton("Create",array("class"=>"btn btn-primary"));?>
+		<?php #$this->endWidget();?>
+	</div> -->
 	<div class="span6">
+		<br>
+		<br>
 		<ul class="nav nav-tabs nav-stacked">
 			<?php foreach(Yii::app()->authManager->getAuthItems() as $data):?>
 			<?php $enabled=Yii::app()->authManager->checkAccess($data->name,$model->id)?>

@@ -3,13 +3,13 @@
 /* @var $model Users */
 
 $this->breadcrumbs=array(
-	'Users'=>array('index'),
-	'Manage',
+	'Usuarios'=>array('index'),
+	'Administrar',
 );
 
 $this->menu=array(
-	array('label'=>'List Users', 'url'=>array('index')),
-	array('label'=>'Create Users', 'url'=>array('create')),
+	array('label'=>'Ver Listado de Usuarios', 'url'=>array('index')),
+	array('label'=>'Crear nuevo Usuario', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,31 +26,31 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Users</h1>
+<h1>Administración de Usuarios</h1>
 
 <p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
+Puede especificar el valor de búsqueda según el criterio de cada Campo.
 </p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<!--<?php #echo CHtml::link('Búsqueda Avanzada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
-<?php $this->renderPartial('_search',array(
-	'model'=>$model,
-)); ?>
-</div><!-- search-form -->
-
+<?php #$this->renderPartial('_search',array(
+	#'model'=>$model,
+#)); ?>
+</div> --><!-- search-form -->
+<div style="padding-bottom: 61px;">
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'users-grid',
+	'itemsCssClass'=>"table table-striped",
+	'pager'=>array("htmlOptions"=>array("class"=>"pagination")),
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id',
 		'username',
-		'password',
 		'email',
 		array(
 			'class'=>'CButtonColumn',
 		),
 	),
 )); ?>
+</div>

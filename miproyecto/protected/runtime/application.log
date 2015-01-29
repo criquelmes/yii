@@ -2546,3 +2546,177 @@ Stack trace:
 REQUEST_URI=/yii/miproyecto/users/update/1.html
 HTTP_REFERER=http://localhost:8080/yii/miproyecto/users/admin.html
 ---
+2015/01/27 16:38:22 [error] [php] Undefined variable: role (C:\wamp\www\yii\miproyecto\protected\controllers\UsersController.php:71)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#3 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp\www\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\yii\miproyecto\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/miproyecto/users/1.html
+in C:\wamp\www\yii\miproyecto\protected\controllers\UsersController.php (71)
+in C:\wamp\www\yii\miproyecto\index.php (13)
+2015/01/27 16:38:33 [error] [exception.CException] exception 'CException' with message 'UsersController has an extra endWidget() call in its view.' in C:\wamp\www\yii\framework\web\CBaseController.php:210
+Stack trace:
+#0 C:\wamp\www\yii\miproyecto\protected\views\users\view.php(45): CBaseController->endWidget()
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\yii...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\yii...', Array, true)
+#3 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\yii...', Array, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#5 C:\wamp\www\yii\miproyecto\protected\controllers\UsersController.php(72): CController->render('view', Array)
+#6 [internal function]: UsersController->actionView('1')
+#7 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#9 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/view')
+#19 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/miproyecto/users/1.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/users/admin.html
+---
+2015/01/27 19:55:45 [error] [php] Undefined variable: mmodel (C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php:117)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): PersonalsController->runAction()
+#3 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): PersonalsController->filterAccessControl()
+#6 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp\www\yii\framework\web\CController.php(265): PersonalsController->runActionWithFilters()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(282): PersonalsController->run()
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\yii\miproyecto\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/miproyecto/personals/update/1.html
+in C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php (117)
+in C:\wamp\www\yii\miproyecto\index.php (13)
+2015/01/27 21:10:34 [error] [php] include(GPuntos.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(217): spl_autoload_call()
+#1 C:\wamp\www\yii\framework\base\CComponent.php(329): createComponent()
+#2 C:\wamp\www\yii\framework\base\CComponent.php(298): Personals->attachBehavior()
+#3 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(83): Personals->attachBehaviors()
+#4 C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php(157): Personals->__construct()
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): PersonalsController->actionAdmin()
+#6 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): PersonalsController->runAction()
+#8 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): PersonalsController->filterAccessControl()
+#11 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\wamp\www\yii\framework\web\CController.php(265): PersonalsController->runActionWithFilters()
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): PersonalsController->run()
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\yii\miproyecto\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/miproyecto/personals/admin.html
+in C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php (157)
+in C:\wamp\www\yii\miproyecto\index.php (13)
+2015/01/29 04:49:06 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "areaText".' in C:\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yii\miproyecto\protected\views\personals\_form.php(133): CComponent->__call('areaText', Array)
+#1 C:\wamp\www\yii\miproyecto\protected\views\personals\_form.php(133): CActiveForm->areaText(Object(Personals), 'observacion')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\yii...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\yii...', Array, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\yii...', Array, true)
+#5 C:\wamp\www\yii\miproyecto\protected\views\personals\update.php(18): CController->renderPartial('_form', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\yii...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\yii...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\yii...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('Update', Array, true)
+#10 C:\wamp\www\yii\miproyecto\protected\controllers\PersonalsController.php(117): CController->render('Update', Array)
+#11 [internal function]: PersonalsController->actionUpdate('1')
+#12 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PersonalsController), Array)
+#13 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PersonalsController), Object(ReflectionMethod), Array)
+#14 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#23 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('personals/updat...')
+#24 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii/miproyecto/personals/update/1.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/1.html
+---
+2015/01/29 05:12:15 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isNotGuest" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('isNotGuest')
+#1 C:\wamp\www\yii\miproyecto\themes\classic\views\layouts\main.php(46): CWebUser->__get('isNotGuest')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\yii...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\yii...', Array, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\\wamp\\www\\yii...', Array, true)
+#5 C:\wamp\www\yii\miproyecto\protected\controllers\SiteController.php(33): CController->render('index')
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/miproyecto/
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/personals/admin.html
+---
+2015/01/29 05:20:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/delete')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/miproyecto/users/delete/2.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/users/admin.html
+---
+2015/01/29 05:21:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/delete')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\yii\miproyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/miproyecto/users/delete/2.html
+HTTP_REFERER=http://localhost:8080/yii/miproyecto/users/admin.html
+---

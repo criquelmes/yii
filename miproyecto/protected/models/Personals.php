@@ -26,7 +26,7 @@
 class Personals extends CActiveRecord
 {
 
-	public function behaviors()
+/*	public function behaviors()
     {
         return array(
             'GPuntos' => array(
@@ -35,7 +35,7 @@ class Personals extends CActiveRecord
 	            'separador' => '.',
             	),
         );
-    }
+    }*/
 	/**
 	 * @return string the associated database table name
 	 */

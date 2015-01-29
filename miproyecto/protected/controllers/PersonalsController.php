@@ -87,22 +87,34 @@ class PersonalsController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
-		$model=$this->loadModel($id);
+		#$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Personals']))
+		#if(isset($_POST['Personals']))
+		#{
+			#$model->attributes=$_POST['Personals'];
+			#if($model->save())
+				#Yii::app()->user->setFlash("success", "Datos Actualizados Correctamente.");
+				#$this->redirect(array('view','id'=>$model->id));
+		#}
+
+		#$this->render('update',array(
+			#'model'=>$model,
+		#));
+
+		$model=Personals::model()->findByPk($id);
+		if(isset($_POST["Personals"]))
 		{
-			$model->attributes=$_POST['Personals'];
+			$model->attributes=$_POST["Personals"];
 			if($model->save())
+			{
 				Yii::app()->user->setFlash("success", "Datos Actualizados Correctamente.");
 				$this->redirect(array('view','id'=>$model->id));
+			}
 		}
-
-		$this->render('update',array(
-			'model'=>$model,
-		));
+		$this->render("Update", array("model"=>$model));
 	}
 
 	/**

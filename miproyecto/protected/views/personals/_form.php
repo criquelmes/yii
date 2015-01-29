@@ -39,13 +39,26 @@
 
 	<div>
 		<?php echo $form->labelEx($model,'ffiniquito'); ?>
-		<?php echo $form->textField($model,'ffiniquito'); ?>
-		<?php echo $form->error($model,'ffiniquito'); ?>
+		<?php
+		$this->widget('zii.widgets.jui.CJuiDatePicker',array(
+				'attribute'=>'ffiniquito',
+				'model'=>$model,
+				'language'=>'es',
+				'options'=>array(
+					'dateFormat'=>'yy-mm-dd',
+					'showButtonPanel'=>true,
+					'changeYear'=>true,
+					'yearRange'=>'-30:+30',
+					'minDate'=>'-30Y',
+					'maxDate'=>'+30Y',
+				)
+			));
+		?>
 	</div>
 
 	<div>
 		<?php echo $form->labelEx($model,'ecivil'); ?>
-		<?php echo $form->textField($model,'ecivil',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->dropDownList($model,'ecivil',array('Soltero'=>'Soltero','Casado'=>'Casado','Separado'=>'Separado','Viudo'=>'Viudo'),array('empty'=>'Seleccione')); ?>
 		<?php echo $form->error($model,'ecivil'); ?>
 	</div>
 
@@ -105,19 +118,19 @@
 
 	<div>
 		<?php echo $form->labelEx($model,'resena'); ?>
-		<?php echo $form->textField($model,'resena',array('size'=>60,'maxlength'=>256)); ?>
+		<?php echo $form->textArea($model,'resena',array('style'=>'width: 600px; height: 80px;')); ?>
 		<?php echo $form->error($model,'resena'); ?>
 	</div>
 
 	<div>
 		<?php echo $form->labelEx($model,'calificacion'); ?>
-		<?php echo $form->textField($model,'calificacion'); ?>
+		<?php echo $form->dropDownList($model,'calificacion',array('1'=>'1','2'=>'2','3'=>'3','4'=>'4','5'=>'5','6'=>'6','7'=>'7','8'=>'8','9'=>'9','10'=>'10')); ?>
 		<?php echo $form->error($model,'calificacion'); ?>
 	</div>
 
 	<div>
 		<?php echo $form->labelEx($model,'observacion'); ?>
-		<?php echo $form->textField($model,'observacion',array('size'=>60,'maxlength'=>256)); ?>
+		<?php echo $form->textArea($model,'observacion', array('style'=>'width: 600px; height: 80px;')); ?>
 		<?php echo $form->error($model,'observacion'); ?>
 	</div>
 
