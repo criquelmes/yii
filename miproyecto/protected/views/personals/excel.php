@@ -33,8 +33,8 @@
 		<td><?php echo $data->sliquido?></td>
 		<td><?php echo $data->telefono?></td>
 		<td><?php echo $data->mail?></td>
-		<td><?php echo $data->resena?></td>
 		<td><?php echo $data->academico?></td>
+		<td><?php echo $data->resena?></td>
 		<td><?php echo $data->calificacion?></td>
 		<td><?php echo $data->observacion?></td>
 	</tr>
